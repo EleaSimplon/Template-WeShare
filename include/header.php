@@ -35,20 +35,20 @@
 
 <body>
 
-    <nav class="white">
+    <nav class="transparent">
         <div class="nav-wrapper">
-            <a href="/" class="brand-logo red-text">We Share</a>   
-            <ul class="hide-on-med-and-down right">
-                <li><a href="/pages/about.php" class="red-text">About</a></li>
-                <li><a href="/pages/share.php" class="red-text">Share</a></li>
-                <li><a href="/pages/find.php" class="red-text">Find</a></li>
-                
+            <a href="/" class="brand-logo">We Share</a>   
+            <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down right" id="nav-mobile">>
+                <li><a href="/pages/about.php" class="black-text">About</a></li>
+                <li><a href="/pages/share.php" class="black-text">Share</a></li>
+                <li><a href="/pages/find.php" class="black-text">Find</a></li>
+                <li><a href="/pages/topRated.php" class="black-text">Top Rated</a></li>
                 <li>
-                    <a class="btn-floating btn-medium waves-effect waves-light red"><i class="material-icons">account_circle</i></a>
+                    <a class="btn-floating btn-medium waves-effect waves-light blue lighten-4"><i class="material-icons">account_circle</i></a>
                 </li>  
                 <li>
-                    <!-- <a class="waves-effect waves-light btn-small"><i class="material-icons right">block</i>Log out</a> -->
-                    <a class="waves-effect waves-light btn-small">Log out</a>
+                    <a class="waves-effect waves-light btn-small red lighten-2">Log out</a>
                 </li> 
             </ul>
         </div>

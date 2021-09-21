@@ -1,7 +1,5 @@
-@import 'navbar';
-@import 'header';
+@import 'index';
 @import 'topRated';
-@import 'shareFind';
 @import 'mixin';
 @import 'topRated';
 @import 'sign';
@@ -9,7 +7,21 @@
 @import 'share';
 @import 'media';
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-body {
-    background-color: rgb(253, 227, 255);
+nav {
+    .brand-logo {
+        font-family: 'Abril Fatface', cursive;
+        color: #B8685D;
+        margin-left: 1rem;
+    }
+}
+
+.page-footer {
+    background-color: #241A12;
+
+    .footer-copyright {
+        background-color: #3d2d20;
+
+    }
 }

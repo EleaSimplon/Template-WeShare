@@ -8,11 +8,16 @@ include 'include/header.php';
 <section class="header-section">
 
     <div class="header-img">
-        <h1><span>WE SHARE</span><br>Experiences of travelling</h1>
 
-        <div class="mouse">
-            <span></span>
+        <div class="row">
+            <div class="col s12 m6 l4 right">
+                <h1><span>WE SHARE</span><br>Experiences of travelling</h1>
+                <div class="mouse">
+                    <span></span>
+                </div>
+            </div>
         </div>
+        
     </div> 
 
 </section>
@@ -21,33 +26,7 @@ include 'include/header.php';
 
 <section class="top-rated pt-5 pb-5">
 
-    <!-- **** ANIMATION ****-->
-    <div class="top-rated-animation">
-        <div class="circle">
-            <div class="logo"><img src="/images/badge.png" alt="badge"></div>
-            <div class="text">
-            <svg x="0" y="0" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-            <defs>
-                <path id="circlePath"
-                d="
-                M 150, 150
-                m -120, 0
-                a 120,120 0 0,1 240,0
-                a 120,120 0 0,1 -240,0
-                "
-                />
-            </defs>
-                <g>
-                <text>
-                <textPath xlink:href="#circlePath">
-                    TOP RATED         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEST OF THE BEST PLACES !</textPath>
-                </text>
-                </g>
-            </svg>
-            </div>
-        </div>
-    </div>
-
+    
     <!-- **** CAROUSEL ****-->
     <div class="carousel" data-flickity='{ "groupCells": true }'>
 
@@ -81,19 +60,22 @@ include 'include/header.php';
 
 </section>
 
+
 <!-- ********** SECTION 3 SHARE OR FIND **********-->
 <section class="share-find">
 
     <div class="container">
         <div class="row">
-            <div class="col s12 m6 6 share">
+            <div class="col s12 m6 l6 share">
                 <a href="/pages/share.php">
-                    <img src="/images/share.png">
+                    <img src="/images/round.png">
+                    <h1><span>SHARE</span></h1>
                 </a>
             </div>
-            <div class="col s12 m6 6 find">
+            <div class="col s12 m6 l6 find">
                 <a href="/pages/find-food.php">
-                    <img src="/images/search.png">
+                    <img src="/images/round.png">
+                    <h1><span>FIND</span></h1>
                 </a>
             </div>
         </div>
@@ -101,6 +83,7 @@ include 'include/header.php';
 
     
 </section>
+
 
 <?php
 

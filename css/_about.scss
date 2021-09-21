@@ -1,62 +1,54 @@
 @import 'mixin';
 
-.header-section {
+.about-header {
+    @include header-img;
     
-    .parallax-container {
-        min-height: 380px;
-        line-height: 0;
-        height: auto;
-        color: rgba(255,255,255,.9);
-    
-        .section {
-            width: 100%;
-        }
-    }
-    
-    .parallax {
-        img {
-            width: 100%;
-        }
-    }
-    
-    @media only screen and (max-width : 992px) {
-        .parallax-container .section {
-            position: absolute;
-            top: 40%;
-        }
-        #index-banner .section {
-            top: 10%;
-        }
+    .header-img {
+        background: url(/images/header.png) no-repeat;
     }
 }
 
 .about {
-    background-color: rgba(222, 138, 135, 0.486);
+   
+    text-align: center;
 
-    .finger-print {
-        width: 25rem;
+    img {
+        width: 5rem;
     }
+
     .about-who {
-       text-align: center;
-       margin-top: 1rem;
-       p {
-           font-size: 1.5em;
-       }
+        @include about-who-what;
     }
+
+    .about-what {
+        @include about-who-what;
+    } 
+
     .row {
         margin-bottom: 0;
     }
 }
 
-.about-share {
-    background-color: rgba(135, 222, 186, 0.486);
+.about-numbers {
+    background-color: #e4bfad;
 
-    .rate {
-        width: 15rem;
-    }
-    .share-what {
-        text-align: center;
-        margin-top: 1rem;
+    .numbers {
+
+        img {
+            width: 5rem;
+        }
+       
+        .row {
+            margin-bottom: auto;
+        }
+
+        h1 {
+            span {
+                @include span-h;
+                border-color: #ffffff;
+            }
+        }
+
         p {
             font-size: 1.5em;
         }
@@ -64,16 +56,20 @@
 }
 
 .about-find {
-    background-color: rgba(95, 107, 160, 0.411);
-
-    .world {
-        width: 15rem;
+    
+    img {
+        width: 30rem;
     }
+
     .find-what {
         text-align: center;
         margin-top: 1rem;
-        p {
-            font-size: 1.5em;
+        
+        h1 {
+            span {
+                @include span-h;
+                border-color: #e4bfad;
+            }
         }
     }
 
@@ -87,3 +83,51 @@
         margin-bottom: 0;
     }
 }
+
+
+// SECTION 4
+
+// .marketing-site-content-section {
+//     display: flex;
+//     flex-wrap: wrap;
+  
+//     .button.round {
+//       border-radius: 5000px;
+//       text-transform: uppercase;
+//     }
+  
+//     .marketing-site-content-section-img {
+//       align-self: center;
+//       flex: 1 0 100%;
+  
+//       img {
+//         width: 100%;
+//       }
+  
+//       @media screen and (min-width: 40em) {
+//         flex: 1 0 50%;
+//       }
+//     }
+  
+//     .marketing-site-content-section-block {
+//       flex: 1 0 100%;
+//       align-self: stretch;
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: flex-start;
+  
+//         @media screen and (min-width: 40em) {
+//             flex: 1 0 50%;
+//             padding: 2rem;
+//         }
+//     }
+// }
+  
+//   .marketing-site-content-section-block-header {
+//     font-size: 24px;
+//   }
+  
+//   .marketing-site-content-section-block-subheader {
+//     font-size: 13px;
+//   }
