@@ -28,7 +28,7 @@
         }
     }
    
-   p {
+    p {
         span {
             @include span-p;
             border-color: #eb85dd;
@@ -42,7 +42,6 @@
         position: relative;
         text-align: center;
         color: #B8685D;
-        padding-top: 110px;
         min-height: 500px;
         letter-spacing: 2px;
     

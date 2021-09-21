@@ -5,6 +5,7 @@
     
     .header-img {
         background: url(/images/header.png) no-repeat;
+        padding-top: 110px;
     }
 }
 
@@ -14,6 +15,10 @@
 
     img {
         width: 5rem;
+    }
+
+    p {
+        font-size: 1.5em;
     }
 
     .about-who {

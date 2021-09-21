@@ -1,8 +1,9 @@
+      
         <footer class="page-footer">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
-                        <h5 class="white-text">Cagnot'Potes</h5>
+                        <h4 class="white-text">We Share</h4>
                         <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo.</p>
                     </div>
                     <div class="col l3 s12 offset-l3">
@@ -26,8 +27,15 @@
         <!----- ***** MATERIALIZE CDN SCRIPT *****------>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+        <!----- ***** JQUERY CDN *****------>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+
         <!----- ***** SIMPLEPARALLAX CDN SCRIPT *****------>
-        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script> -->
 
         <!-- ***** FLICKITY CAROUSEL ***** -->
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -48,6 +56,7 @@
         <script src="/js/rating.js"></script>
         <script src="/js/carousel-index.js"></script>
         <script src="/js/navBar.js"></script>
+        <script src="/js/backTopTop.js"></script>
 
     </body>
 </html>

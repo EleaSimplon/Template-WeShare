@@ -73,7 +73,7 @@ include 'include/header.php';
                 </a>
             </div>
             <div class="col s12 m6 l6 find">
-                <a href="/pages/find-food.php">
+                <a href="/pages/find.php">
                     <img src="/images/round.png">
                     <h1><span>FIND</span></h1>
                 </a>
