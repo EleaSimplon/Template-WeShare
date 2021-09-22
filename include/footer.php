@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
-                        <h4 class="white-text">We Share</h4>
+                        <h4 class="white-text">We Share®</h4>
                         <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo.</p>
                     </div>
                     <div class="col l3 s12 offset-l3">
@@ -23,16 +23,11 @@
             </div>
         </footer>
         
-        
-        <!----- ***** MATERIALIZE CDN SCRIPT *****------>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
         <!----- ***** JQUERY CDN *****------>
-        <script
-            src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous">
-        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!----- ***** MATERIALIZE CDN SCRIPT *****------>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>      
 
         <!----- ***** SIMPLEPARALLAX CDN SCRIPT *****------>
         <!-- <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script> -->
@@ -49,14 +44,10 @@
             var simplemde = new SimpleMDE({ element: document.getElementById("description") });
         </script>
 
-        <!-- ***** STAR RATING ***** -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
         <!----- ***** JS SCRIPT *****------>
         <script src="/js/rating.js"></script>
         <script src="/js/carousel-index.js"></script>
-        <script src="/js/navBar.js"></script>
-        <script src="/js/backTopTop.js"></script>
+        <script src="/js/materialize.js"></script>
 
     </body>
 </html>

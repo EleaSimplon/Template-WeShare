@@ -105,9 +105,6 @@ include '../include/header.php';
         </div> 
     </section>-->
 
-    <!-- ***************************** BACK TO TOP BTN *********************************** -->
-    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
-
 <?php
 
     include '../include/footer.php';

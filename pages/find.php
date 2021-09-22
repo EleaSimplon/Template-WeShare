@@ -18,6 +18,26 @@
     </div> 
 </section>
 
+<!-- ********** SECTION 2 SEARCH BAR **********-->
+<section class="search-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col 6">
+                <div class="nav-wrapper">
+                    <form>
+                        <div class="input-field">
+                        <input id="search" type="Search" placeholder="search" required>
+                        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>   
+    </div>
+</section>
+    
+
 <!-- ********** SECTION 2 CATEGORIES + IMG LIKE TO PAGES **********-->
 <section class="categories">
     <div class="row center">
